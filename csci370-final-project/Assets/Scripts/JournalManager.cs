@@ -12,7 +12,7 @@ public class JournalManager : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.J)) {
+        if (Input.GetKeyDown(KeyCode.Tab)) {
             GetComponent<PlayerMovement>().enabled = !GetComponent<PlayerMovement>().enabled;
             if (GetComponent<PlayerMovement>().enabled) {
                 Cursor.lockState = CursorLockMode.Locked;
