@@ -1,9 +1,13 @@
 using UnityEngine;
+using TMPro;
 
-public class JournalManager : MonoBehaviour
+public class UIManager : MonoBehaviour
 {
     public GameObject Journal;
+    public GameObject Thermometer;
+    public TMP_Text ThermometerText;
     public GameObject JournalIcon;
+    public float Temperature;
     void Start()
     {
         
@@ -22,6 +26,12 @@ public class JournalManager : MonoBehaviour
             }
             JournalIcon.gameObject.SetActive(!JournalIcon.gameObject.activeSelf);
             Journal.gameObject.SetActive(!Journal.gameObject.activeSelf);
+        }
+        if (Input.GetKeyDown(KeyCode.T)) {
+            if (!Journal.gameObject.activeSelf) {
+                Thermometer.gameObject.SetActive(!Thermometer.gameObject.activeSelf);
+                ThermometerText.text = $"{Temperature}°F";
+            }
         }
     }
 }
