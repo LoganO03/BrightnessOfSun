@@ -1621,7 +1621,7 @@ MonoBehaviour:
   Thermometer: {fileID: 604238118}
   ThermometerText: {fileID: 1748053928}
   JournalIcon: {fileID: 1519594255}
-  Temperature: 98.6
+  Temperature: 124.6
 --- !u!114 &835894635
 MonoBehaviour:
   m_ObjectHideFlags: 0
