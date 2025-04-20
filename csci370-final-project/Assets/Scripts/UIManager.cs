@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using System;
 
 public class UIManager : MonoBehaviour
 {
@@ -7,12 +8,13 @@ public class UIManager : MonoBehaviour
     public GameObject Thermometer;
     public TMP_Text ThermometerText;
     public GameObject JournalIcon;
+    public GameObject TempIcon;
     public float Temperature;
+
     void Start()
     {
         
     }
-
     
     void Update()
     {
@@ -20,18 +22,39 @@ public class UIManager : MonoBehaviour
             GetComponent<PlayerMovement>().enabled = !GetComponent<PlayerMovement>().enabled;
             if (GetComponent<PlayerMovement>().enabled) {
                 Cursor.lockState = CursorLockMode.Locked;
-            } else {
-                Cursor.lockState = CursorLockMode.None;
-                Cursor.visible = true;
+                JournalIcon.gameObject.SetActive(true);
+                TempIcon.gameObject.SetActive(true);
+                Journal.LeanMoveLocalY(-410, 0.5f).setEaseOutExpo().setOnComplete(OnCompleteJournal);
+                return;
             }
-            JournalIcon.gameObject.SetActive(!JournalIcon.gameObject.activeSelf);
-            Journal.gameObject.SetActive(!Journal.gameObject.activeSelf);
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+            JournalIcon.gameObject.SetActive(false);
+            TempIcon.gameObject.SetActive(false);
+            Journal.gameObject.SetActive(true);
+            Journal.LeanMoveLocalY(0, 0.5f).setEaseOutExpo().delay = 0.1f;
         }
+
         if (Input.GetKeyDown(KeyCode.T)) {
             if (!Journal.gameObject.activeSelf) {
-                Thermometer.gameObject.SetActive(!Thermometer.gameObject.activeSelf);
+                if (Thermometer.gameObject.activeSelf) {
+                    Thermometer.LeanMoveLocalY(-230, 0.5f).setEaseOutExpo().setOnComplete(OnCompleteTemp);
+                    return;
+                }
+                Thermometer.gameObject.SetActive(true);
                 ThermometerText.text = $"{Temperature}°F";
+                Thermometer.LeanMoveLocalY(0, 0.5f).setEaseOutExpo().delay = 0.1f;
             }
         }
+    }
+
+    void OnCompleteTemp()
+    {
+        Thermometer.SetActive(false);
+    }
+
+    void OnCompleteJournal()
+    {
+        Journal.SetActive(false);
     }
 }
