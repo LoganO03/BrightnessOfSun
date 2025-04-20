@@ -9,6 +9,7 @@ public class UIManager : MonoBehaviour
     public TMP_Text ThermometerText;
     public GameObject JournalIcon;
     public GameObject TempIcon;
+    public TMP_Text MineralCount;
     public float Temperature;
 
     void Start()
