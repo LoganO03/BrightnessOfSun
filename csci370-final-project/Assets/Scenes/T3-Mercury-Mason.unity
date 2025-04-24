@@ -212,8 +212,8 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
-  m_Antialiasing: 0
+  m_RenderPostProcessing: 1
+  m_Antialiasing: 1
   m_AntialiasingQuality: 2
   m_StopNaN: 0
   m_Dithering: 0
@@ -455,7 +455,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 7312a1cf0950a484594d8d07b45bf765, type: 2}
+      objectReference: {fileID: 2100000, guid: 8e6acfaa4cd7a914ba2f896f269d5acb, type: 2}
     - target: {fileID: 919132149155446097, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
       propertyPath: m_Name
       value: skull mountain (3)
@@ -593,7 +593,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 7312a1cf0950a484594d8d07b45bf765, type: 2}
+      objectReference: {fileID: 2100000, guid: 8e6acfaa4cd7a914ba2f896f269d5acb, type: 2}
     - target: {fileID: 919132149155446097, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
       propertyPath: m_Name
       value: skull mountain (2)
@@ -949,7 +949,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: e8793cc1f6a670a428adfce864516ff2, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 7312a1cf0950a484594d8d07b45bf765, type: 2}
+      objectReference: {fileID: 2100000, guid: 8e6acfaa4cd7a914ba2f896f269d5acb, type: 2}
     - target: {fileID: 919132149155446097, guid: e8793cc1f6a670a428adfce864516ff2, type: 3}
       propertyPath: m_Name
       value: land space shuttle launch (2)
@@ -1199,7 +1199,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 7312a1cf0950a484594d8d07b45bf765, type: 2}
+      objectReference: {fileID: 2100000, guid: 8e6acfaa4cd7a914ba2f896f269d5acb, type: 2}
     - target: {fileID: 919132149155446097, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
       propertyPath: m_Name
       value: skull mountain (8)
@@ -1643,7 +1643,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: e8793cc1f6a670a428adfce864516ff2, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 7312a1cf0950a484594d8d07b45bf765, type: 2}
+      objectReference: {fileID: 2100000, guid: 8e6acfaa4cd7a914ba2f896f269d5acb, type: 2}
     - target: {fileID: 919132149155446097, guid: e8793cc1f6a670a428adfce864516ff2, type: 3}
       propertyPath: m_Name
       value: land space shuttle launch
@@ -2267,7 +2267,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 7312a1cf0950a484594d8d07b45bf765, type: 2}
+      objectReference: {fileID: 2100000, guid: 8e6acfaa4cd7a914ba2f896f269d5acb, type: 2}
     - target: {fileID: 919132149155446097, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
       propertyPath: m_Name
       value: skull mountain (1)
@@ -2440,7 +2440,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 47d7b3d3a18451344836f37c91983f2b, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 7312a1cf0950a484594d8d07b45bf765, type: 2}
+      objectReference: {fileID: 2100000, guid: 8e6acfaa4cd7a914ba2f896f269d5acb, type: 2}
     - target: {fileID: 919132149155446097, guid: 47d7b3d3a18451344836f37c91983f2b, type: 3}
       propertyPath: m_Name
       value: stone flat brown
@@ -2573,7 +2573,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 7312a1cf0950a484594d8d07b45bf765, type: 2}
+      objectReference: {fileID: 2100000, guid: 8e6acfaa4cd7a914ba2f896f269d5acb, type: 2}
     - target: {fileID: 919132149155446097, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
       propertyPath: m_Name
       value: skull mountain (4)
@@ -2711,7 +2711,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 7312a1cf0950a484594d8d07b45bf765, type: 2}
+      objectReference: {fileID: 2100000, guid: 8e6acfaa4cd7a914ba2f896f269d5acb, type: 2}
     - target: {fileID: 919132149155446097, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
       propertyPath: m_Name
       value: skull mountain (5)
@@ -2849,7 +2849,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 7312a1cf0950a484594d8d07b45bf765, type: 2}
+      objectReference: {fileID: 2100000, guid: 8e6acfaa4cd7a914ba2f896f269d5acb, type: 2}
     - target: {fileID: 919132149155446097, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
       propertyPath: m_Name
       value: skull mountain (6)
@@ -3062,7 +3062,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: e8793cc1f6a670a428adfce864516ff2, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 7312a1cf0950a484594d8d07b45bf765, type: 2}
+      objectReference: {fileID: 2100000, guid: 8e6acfaa4cd7a914ba2f896f269d5acb, type: 2}
     - target: {fileID: 919132149155446097, guid: e8793cc1f6a670a428adfce864516ff2, type: 3}
       propertyPath: m_Name
       value: land space shuttle launch (3)
@@ -3200,7 +3200,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: e8793cc1f6a670a428adfce864516ff2, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 7312a1cf0950a484594d8d07b45bf765, type: 2}
+      objectReference: {fileID: 2100000, guid: 8e6acfaa4cd7a914ba2f896f269d5acb, type: 2}
     - target: {fileID: 919132149155446097, guid: e8793cc1f6a670a428adfce864516ff2, type: 3}
       propertyPath: m_Name
       value: land space shuttle launch (1)
@@ -3811,7 +3811,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 7312a1cf0950a484594d8d07b45bf765, type: 2}
+      objectReference: {fileID: 2100000, guid: 8e6acfaa4cd7a914ba2f896f269d5acb, type: 2}
     - target: {fileID: 919132149155446097, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
       propertyPath: m_Name
       value: skull mountain (9)
@@ -4513,7 +4513,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 7312a1cf0950a484594d8d07b45bf765, type: 2}
+      objectReference: {fileID: 2100000, guid: 8e6acfaa4cd7a914ba2f896f269d5acb, type: 2}
     - target: {fileID: 919132149155446097, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
       propertyPath: m_Name
       value: skull mountain
@@ -4805,7 +4805,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 7312a1cf0950a484594d8d07b45bf765, type: 2}
+      objectReference: {fileID: 2100000, guid: 8e6acfaa4cd7a914ba2f896f269d5acb, type: 2}
     - target: {fileID: 919132149155446097, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
       propertyPath: m_Name
       value: skull mountain (7)
