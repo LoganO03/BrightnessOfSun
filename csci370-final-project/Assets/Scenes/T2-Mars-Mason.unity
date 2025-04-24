@@ -452,6 +452,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7312a1cf0950a484594d8d07b45bf765, type: 2}
     - target: {fileID: 919132149155446097, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
       propertyPath: m_Name
       value: skull mountain (3)
@@ -586,6 +590,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7312a1cf0950a484594d8d07b45bf765, type: 2}
     - target: {fileID: 919132149155446097, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
       propertyPath: m_Name
       value: skull mountain (2)
@@ -938,6 +946,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e8793cc1f6a670a428adfce864516ff2, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7312a1cf0950a484594d8d07b45bf765, type: 2}
     - target: {fileID: 919132149155446097, guid: e8793cc1f6a670a428adfce864516ff2, type: 3}
       propertyPath: m_Name
       value: land space shuttle launch (2)
@@ -1184,6 +1196,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7312a1cf0950a484594d8d07b45bf765, type: 2}
     - target: {fileID: 919132149155446097, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
       propertyPath: m_Name
       value: skull mountain (8)
@@ -1624,6 +1640,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e8793cc1f6a670a428adfce864516ff2, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7312a1cf0950a484594d8d07b45bf765, type: 2}
     - target: {fileID: 919132149155446097, guid: e8793cc1f6a670a428adfce864516ff2, type: 3}
       propertyPath: m_Name
       value: land space shuttle launch
@@ -2244,6 +2264,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7312a1cf0950a484594d8d07b45bf765, type: 2}
     - target: {fileID: 919132149155446097, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
       propertyPath: m_Name
       value: skull mountain (1)
@@ -2413,6 +2437,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 47d7b3d3a18451344836f37c91983f2b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7312a1cf0950a484594d8d07b45bf765, type: 2}
     - target: {fileID: 919132149155446097, guid: 47d7b3d3a18451344836f37c91983f2b, type: 3}
       propertyPath: m_Name
       value: stone flat brown
@@ -2542,6 +2570,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7312a1cf0950a484594d8d07b45bf765, type: 2}
     - target: {fileID: 919132149155446097, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
       propertyPath: m_Name
       value: skull mountain (4)
@@ -2676,6 +2708,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7312a1cf0950a484594d8d07b45bf765, type: 2}
     - target: {fileID: 919132149155446097, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
       propertyPath: m_Name
       value: skull mountain (5)
@@ -2810,6 +2846,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7312a1cf0950a484594d8d07b45bf765, type: 2}
     - target: {fileID: 919132149155446097, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
       propertyPath: m_Name
       value: skull mountain (6)
@@ -3019,6 +3059,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e8793cc1f6a670a428adfce864516ff2, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7312a1cf0950a484594d8d07b45bf765, type: 2}
     - target: {fileID: 919132149155446097, guid: e8793cc1f6a670a428adfce864516ff2, type: 3}
       propertyPath: m_Name
       value: land space shuttle launch (3)
@@ -3153,6 +3197,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e8793cc1f6a670a428adfce864516ff2, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7312a1cf0950a484594d8d07b45bf765, type: 2}
     - target: {fileID: 919132149155446097, guid: e8793cc1f6a670a428adfce864516ff2, type: 3}
       propertyPath: m_Name
       value: land space shuttle launch (1)
@@ -3760,6 +3808,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7312a1cf0950a484594d8d07b45bf765, type: 2}
     - target: {fileID: 919132149155446097, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
       propertyPath: m_Name
       value: skull mountain (9)
@@ -4458,6 +4510,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7312a1cf0950a484594d8d07b45bf765, type: 2}
     - target: {fileID: 919132149155446097, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
       propertyPath: m_Name
       value: skull mountain
@@ -4746,6 +4802,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7312a1cf0950a484594d8d07b45bf765, type: 2}
     - target: {fileID: 919132149155446097, guid: a56ddc5053c4e06408b429e37772e662, type: 3}
       propertyPath: m_Name
       value: skull mountain (7)

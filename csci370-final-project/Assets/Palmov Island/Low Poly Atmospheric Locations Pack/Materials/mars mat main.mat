@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: mat main
+  m_Name: mars mat main
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -233,8 +233,8 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BASE_COLOR: {r: 0, g: 0, b: 0, a: 0}
-    - _BaseColor: {r: 0.9347533, g: 0.9496855, b: 0.9471144, a: 1}
-    - _Color: {r: 0.9347533, g: 0.9496855, b: 0.9471144, a: 1}
+    - _BaseColor: {r: 0.91823894, g: 0.30859807, b: 0.054863155, a: 1}
+    - _Color: {r: 0.918239, g: 0.30859804, b: 0.054863133, a: 1}
     - _EMISSION_COLOR: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _HueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}
