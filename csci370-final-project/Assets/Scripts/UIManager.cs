@@ -1,6 +1,6 @@
 using UnityEngine;
 using TMPro;
-using System;
+using Random = UnityEngine.Random;
 
 public class UIManager : MonoBehaviour
 {
@@ -10,7 +10,8 @@ public class UIManager : MonoBehaviour
     public GameObject JournalIcon;
     public GameObject TempIcon;
     public TMP_Text MineralCount;
-    public float Temperature;
+    public float LowestTemp;
+    public float HighestTemp;
 
     void Start()
     {
@@ -33,6 +34,7 @@ public class UIManager : MonoBehaviour
             JournalIcon.gameObject.SetActive(false);
             TempIcon.gameObject.SetActive(false);
             Journal.gameObject.SetActive(true);
+            Thermometer.gameObject.SetActive(false);
             Journal.LeanMoveLocalY(0, 0.5f).setEaseOutExpo().delay = 0.1f;
         }
 
@@ -43,8 +45,14 @@ public class UIManager : MonoBehaviour
                     return;
                 }
                 Thermometer.gameObject.SetActive(true);
-                ThermometerText.text = $"{Temperature}°F";
+                ThermometerText.text = $"{Random.Range(LowestTemp, HighestTemp):F1}°F";
                 Thermometer.LeanMoveLocalY(0, 0.5f).setEaseOutExpo().delay = 0.1f;
+            }
+        }
+
+        if (Input.GetMouseButtonDown(0)) {
+            if (Thermometer.gameObject.activeSelf) {
+                ThermometerText.text = $"{Random.Range(LowestTemp, HighestTemp):F1}°F";
             }
         }
     }
