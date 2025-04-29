@@ -178,7 +178,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f8ab08e5a3aba6e4084bd53bce0d516b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 50f7b89537dbebd428de0a9ac0e19900, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -679,7 +679,7 @@ MonoBehaviour:
   m_text: Submit
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 952cd726958e5274f8c89717596c68f5, type: 2}
-  m_sharedMaterial: {fileID: 6112532661563727561, guid: 952cd726958e5274f8c89717596c68f5, type: 2}
+  m_sharedMaterial: {fileID: 983606587535769088, guid: 952cd726958e5274f8c89717596c68f5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1069,7 +1069,7 @@ GameObject:
   - component: {fileID: 1321174596}
   - component: {fileID: 1321174595}
   m_Layer: 5
-  m_Name: PlanetBoxSaturn
+  m_Name: PlanetBoxMars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1156,7 +1156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb9771ca3a1f8ce40b6b353068373117, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  planetName: Saturn
+  planetName: Mars
   inPlace: 0
 --- !u!1 &1330313762
 GameObject:
@@ -1320,7 +1320,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c09650fc21cf80e4ea947ebb87ac0213, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b66a1e7dd824db34ca48974506f9121d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1377,7 +1377,7 @@ GameObject:
   - component: {fileID: 1468494042}
   - component: {fileID: 1468494041}
   m_Layer: 5
-  m_Name: Saturn
+  m_Name: Mars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1392,14 +1392,14 @@ RectTransform:
   m_GameObject: {fileID: 1468494037}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.160117, y: 0.5800585, z: 0.5800585}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.5800585}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1515388552}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 141, y: -122}
+  m_AnchoredPosition: {x: 141, y: -126}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1468494039
@@ -1422,7 +1422,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7058d52da23cb4f4aa7520b10b7cc03e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 95e8eb8e81a9f3a47b0b024b43714e86, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
