@@ -45,7 +45,7 @@ public class UIManager : MonoBehaviour
                     return;
                 }
                 Thermometer.gameObject.SetActive(true);
-                ThermometerText.text = $"{Random.Range(LowestTemp, HighestTemp):F1}°F";
+                ThermometerText.text = "-----";
                 Thermometer.LeanMoveLocalY(0, 0.5f).setEaseOutExpo().delay = 0.1f;
             }
         }
