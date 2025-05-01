@@ -10,13 +10,9 @@ public class UIManager : MonoBehaviour
     public GameObject JournalIcon;
     public GameObject TempIcon;
     public TMP_Text MineralCount;
+    public TMP_Text MineralNotif;
     public float LowestTemp;
     public float HighestTemp;
-
-    void Start()
-    {
-        
-    }
     
     void Update()
     {
@@ -54,6 +50,10 @@ public class UIManager : MonoBehaviour
             if (Thermometer.gameObject.activeSelf) {
                 ThermometerText.text = $"{Random.Range(LowestTemp, HighestTemp):F1}°F";
             }
+        }
+
+        if (GetComponent<PlayerMovement>().mineralCount == 10) {
+            MineralNotif.gameObject.SetActive(true);
         }
     }
 
