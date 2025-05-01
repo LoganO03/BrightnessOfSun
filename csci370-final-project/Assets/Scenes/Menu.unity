@@ -178,8 +178,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Controls
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 153f10d939f03f142864eb4cf331ab5d, type: 2}
-  m_sharedMaterial: {fileID: -3508272155161889783, guid: 153f10d939f03f142864eb4cf331ab5d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b2be60fc30018d44cbdfa795e4b4ee2e, type: 2}
+  m_sharedMaterial: {fileID: -4584804722263490301, guid: b2be60fc30018d44cbdfa795e4b4ee2e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -314,8 +314,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Credits
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 153f10d939f03f142864eb4cf331ab5d, type: 2}
-  m_sharedMaterial: {fileID: -3508272155161889783, guid: 153f10d939f03f142864eb4cf331ab5d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b2be60fc30018d44cbdfa795e4b4ee2e, type: 2}
+  m_sharedMaterial: {fileID: -4584804722263490301, guid: b2be60fc30018d44cbdfa795e4b4ee2e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1225,8 +1225,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Play
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 153f10d939f03f142864eb4cf331ab5d, type: 2}
-  m_sharedMaterial: {fileID: -3508272155161889783, guid: 153f10d939f03f142864eb4cf331ab5d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b2be60fc30018d44cbdfa795e4b4ee2e, type: 2}
+  m_sharedMaterial: {fileID: -4584804722263490301, guid: b2be60fc30018d44cbdfa795e4b4ee2e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1361,8 +1361,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Adam\u2019s Intergalactic Adventure"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 153f10d939f03f142864eb4cf331ab5d, type: 2}
-  m_sharedMaterial: {fileID: -3508272155161889783, guid: 153f10d939f03f142864eb4cf331ab5d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b2be60fc30018d44cbdfa795e4b4ee2e, type: 2}
+  m_sharedMaterial: {fileID: -4584804722263490301, guid: b2be60fc30018d44cbdfa795e4b4ee2e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
