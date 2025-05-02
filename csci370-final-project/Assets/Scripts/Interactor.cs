@@ -15,7 +15,7 @@ public class Interactor : MonoBehaviour
     void Update()
     {
         Ray ray = new Ray(InteractorSource.position, InteractorSource.forward);
-        if (Physics.Raycast(ray, out RaycastHit hitInfo, InteractRange) && Player.GetComponent<PlayerMovement>().mineralCount == 1) {
+        if (Physics.Raycast(ray, out RaycastHit hitInfo, InteractRange) && Player.GetComponent<PlayerMovement>().mineralCount == 10) {
             if (hitInfo.collider.gameObject.TryGetComponent(out IInteractable interactObj)) {
                 ReturnText.gameObject.SetActive(true);
                 if (Input.GetKeyDown(KeyCode.E)) {
