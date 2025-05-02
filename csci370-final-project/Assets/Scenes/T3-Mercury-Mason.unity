@@ -2000,7 +2000,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d52facaba4c50f24185272742a2e97b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 50, z: 0}
+  Rotation: {x: 0, y: 0, z: 0}
 --- !u!1001 &359290369
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2654,7 +2654,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d52facaba4c50f24185272742a2e97b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 50, z: 0}
+  Rotation: {x: 0, y: 0, z: 0}
 --- !u!1001 &487913617
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2863,7 +2863,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d52facaba4c50f24185272742a2e97b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 50, z: 0}
+  Rotation: {x: 0, y: 0, z: 0}
 --- !u!1001 &616630727
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3030,7 +3030,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d52facaba4c50f24185272742a2e97b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 50, z: 0}
+  Rotation: {x: 0, y: 0, z: 0}
 --- !u!1001 &681763145
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5350,7 +5350,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d52facaba4c50f24185272742a2e97b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 50, z: 0}
+  Rotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1201609528
 GameObject:
   m_ObjectHideFlags: 0
@@ -5453,17 +5453,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55a70a98f5a5fda4a8ea3c1f3092e138, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCamera: {fileID: 1275877493}
-  walkSpeed: 6
-  runSpeed: 12
-  jumpPower: 7
-  gravity: 10
-  lookSpeed: 2
-  lookXLimit: 45
-  defaultHeight: 2
-  crouchHeight: 1
-  crouchSpeed: 3
-  mineralCount: 0
+  PlayerCamera: {fileID: 1275877493}
+  WalkSpeed: 6
+  RunSpeed: 12
+  JumpPower: 7
+  Gravity: 10
+  LookSpeed: 2
+  LookXLimit: 45
+  DefaultHeight: 2
+  CrouchHeight: 1
+  CrouchSpeed: 3
+  MineralCount: 0
 --- !u!143 &1201609533
 CharacterController:
   m_ObjectHideFlags: 0
@@ -6145,7 +6145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d52facaba4c50f24185272742a2e97b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 50, z: 0}
+  Rotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1453551416
 GameObject:
   m_ObjectHideFlags: 0
@@ -7879,7 +7879,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d52facaba4c50f24185272742a2e97b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 50, z: 0}
+  Rotation: {x: 0, y: 0, z: 0}
 --- !u!1 &1931815666
 GameObject:
   m_ObjectHideFlags: 0
@@ -8033,7 +8033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d52facaba4c50f24185272742a2e97b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 50, z: 0}
+  Rotation: {x: 0, y: 0, z: 0}
 --- !u!1001 &1958832897
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8616,7 +8616,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d52facaba4c50f24185272742a2e97b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 50, z: 0}
+  Rotation: {x: 0, y: 0, z: 0}
 --- !u!1001 &2136807620
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8710,7 +8710,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d52facaba4c50f24185272742a2e97b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 50, z: 0}
+  Rotation: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
