@@ -1082,6 +1082,7 @@ GameObject:
   - component: {fileID: 1648282142}
   - component: {fileID: 1648282141}
   - component: {fileID: 1648282140}
+  - component: {fileID: 1648282143}
   m_Layer: 5
   m_Name: Credit Button
   m_TagString: Untagged
@@ -1153,13 +1154,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1648282138}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1648282143}
+        m_TargetAssemblyTypeName: CreditButton, Assembly-CSharp
+        m_MethodName: LoadCredits
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1203,6 +1204,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1648282138}
   m_CullTransparentMesh: 1
+--- !u!114 &1648282143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1648282138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0638ba4da752434ea36282a588e817f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1945207784
 GameObject:
   m_ObjectHideFlags: 0
