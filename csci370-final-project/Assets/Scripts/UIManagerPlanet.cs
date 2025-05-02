@@ -1,21 +1,30 @@
 using UnityEngine;
 
-public class UIManagerPlanet : MonoBehaviour
-{
-    public GameObject Journal;
-    public GameObject JournalIcon;
+public class UIManagerPlanet : MonoBehaviour {
+    GameObject Journal;
+    GameObject JournalText;
+    GameObject JournalIcon;
+    public GameObject VictoryCanvas;
+    
+    void Awake() {
+        Journal = GameObject.Find("JournalCanvas/Journal");
+        JournalText = GameObject.Find("JournalCanvas/Journal/Input");
+        JournalIcon = GameObject.Find("JournalCanvas/JournalIcon");
+    }
     
     void Start() {
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
     }
     
-    void Update()
-    {
+    void Update() {
         if (Input.GetKeyDown(KeyCode.Tab)) {
-            if (Journal.activeSelf == false) {
+            if (VictoryCanvas.gameObject.activeSelf) {
+                return;
+            }
+            if (JournalText.activeSelf == false) {
                 JournalIcon.gameObject.SetActive(false);
-                Journal.gameObject.SetActive(true);
+                JournalText.gameObject.SetActive(true);
                 Journal.LeanMoveLocalY(0, 0.5f).setEaseOutExpo().delay = 0.1f;
                 return;
             }
@@ -24,8 +33,7 @@ public class UIManagerPlanet : MonoBehaviour
         }
     }
 
-    void OnCompleteJournal()
-    {
-        Journal.SetActive(false);
+    void OnCompleteJournal() {
+        JournalText.gameObject.SetActive(false);
     }
 }

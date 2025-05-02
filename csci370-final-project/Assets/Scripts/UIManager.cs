@@ -2,20 +2,26 @@ using UnityEngine;
 using TMPro;
 using Random = UnityEngine.Random;
 
-public class UIManager : MonoBehaviour
-{
-    public GameObject Journal;
+public class UIManager : MonoBehaviour {
+    GameObject Journal;
+    GameObject JournalText;
+    GameObject JournalIcon;
     public GameObject Thermometer;
     public TMP_Text ThermometerText;
-    public GameObject JournalIcon;
     public GameObject TempIcon;
     public TMP_Text MineralCount;
     public TMP_Text MineralNotif;
     public float LowestTemp;
     public float HighestTemp;
-    
-    void Update()
-    {
+
+    void Awake() {
+        Journal = GameObject.Find("JournalCanvas/Journal");
+        JournalText = GameObject.Find("JournalCanvas/Journal/Input");
+        JournalIcon = GameObject.Find("JournalCanvas/JournalIcon");
+        JournalText.SetActive(false);
+    }
+
+    void Update() {
         if (Input.GetKeyDown(KeyCode.Tab)) {
             GetComponent<PlayerMovement>().enabled = !GetComponent<PlayerMovement>().enabled;
             if (GetComponent<PlayerMovement>().enabled) {
@@ -29,13 +35,13 @@ public class UIManager : MonoBehaviour
             Cursor.visible = true;
             JournalIcon.gameObject.SetActive(false);
             TempIcon.gameObject.SetActive(false);
-            Journal.gameObject.SetActive(true);
+            JournalText.gameObject.SetActive(true);
             Thermometer.gameObject.SetActive(false);
             Journal.LeanMoveLocalY(0, 0.5f).setEaseOutExpo().delay = 0.1f;
         }
 
         if (Input.GetKeyDown(KeyCode.T)) {
-            if (!Journal.gameObject.activeSelf) {
+            if (!JournalText.gameObject.activeSelf) {
                 if (Thermometer.gameObject.activeSelf) {
                     Thermometer.LeanMoveLocalY(-230, 0.5f).setEaseOutExpo().setOnComplete(OnCompleteTemp);
                     return;
@@ -52,18 +58,16 @@ public class UIManager : MonoBehaviour
             }
         }
 
-        if (GetComponent<PlayerMovement>().mineralCount == 10) {
+        if (GetComponent<PlayerMovement>().MineralCount == 10) {
             MineralNotif.gameObject.SetActive(true);
         }
     }
 
-    void OnCompleteTemp()
-    {
+    void OnCompleteTemp() {
         Thermometer.SetActive(false);
     }
 
-    void OnCompleteJournal()
-    {
-        Journal.SetActive(false);
+    void OnCompleteJournal() {
+        JournalText.SetActive(false);
     }
 }

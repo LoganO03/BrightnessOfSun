@@ -1,9 +1,7 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class PlanetDrop : MonoBehaviour, IDropHandler
-{
-
+public class PlanetDrop : MonoBehaviour, IDropHandler {
     public string planetName;
     public bool inPlace = false;
 
@@ -19,5 +17,4 @@ public class PlanetDrop : MonoBehaviour, IDropHandler
             }
         }
     }
-
 }

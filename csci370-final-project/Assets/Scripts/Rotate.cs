@@ -1,10 +1,9 @@
 using UnityEngine;
 
-public class Rotate : MonoBehaviour
-{
-    public Vector3 rotation;
-    void Update()
-    {
-        transform.Rotate(rotation * 1 * Time.deltaTime);
+public class Rotate : MonoBehaviour {
+    public Vector3 Rotation;
+
+    void Update() {
+        transform.Rotate(Rotation * 1 * Time.deltaTime);
     }
 }
