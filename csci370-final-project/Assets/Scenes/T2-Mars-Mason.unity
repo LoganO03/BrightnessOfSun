@@ -739,7 +739,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d52facaba4c50f24185272742a2e97b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Rotation: {x: 0, y: 0, z: 0}
+  Rotation: {x: 0, y: 50, z: 0}
 --- !u!1001 &306322507
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -981,8 +981,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerCamera: {fileID: 871189172}
-  WalkSpeed: 6
-  RunSpeed: 12
+  WalkSpeed: 15
+  RunSpeed: 30
   JumpPower: 7
   Gravity: 10
   LookSpeed: 2
@@ -1126,7 +1126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d52facaba4c50f24185272742a2e97b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Rotation: {x: 0, y: 0, z: 0}
+  Rotation: {x: 0, y: 50, z: 0}
 --- !u!1 &396484965
 GameObject:
   m_ObjectHideFlags: 0
@@ -1482,7 +1482,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d52facaba4c50f24185272742a2e97b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Rotation: {x: 0, y: 0, z: 0}
+  Rotation: {x: 0, y: 50, z: 0}
 --- !u!1 &523017336
 GameObject:
   m_ObjectHideFlags: 0
@@ -1620,7 +1620,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d52facaba4c50f24185272742a2e97b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Rotation: {x: 0, y: 0, z: 0}
+  Rotation: {x: 0, y: 50, z: 0}
 --- !u!1 &673962849
 GameObject:
   m_ObjectHideFlags: 0
@@ -2079,7 +2079,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d52facaba4c50f24185272742a2e97b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Rotation: {x: 0, y: 0, z: 0}
+  Rotation: {x: 0, y: 50, z: 0}
 --- !u!1 &810766320
 GameObject:
   m_ObjectHideFlags: 0
@@ -3120,7 +3120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d52facaba4c50f24185272742a2e97b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Rotation: {x: 0, y: 0, z: 0}
+  Rotation: {x: 0, y: 50, z: 0}
 --- !u!1 &1045146305
 GameObject:
   m_ObjectHideFlags: 0
@@ -4673,7 +4673,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d52facaba4c50f24185272742a2e97b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Rotation: {x: 0, y: 0, z: 0}
+  Rotation: {x: 0, y: 50, z: 0}
 --- !u!1001 &1361514640
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5098,7 +5098,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d52facaba4c50f24185272742a2e97b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Rotation: {x: 0, y: 0, z: 0}
+  Rotation: {x: 0, y: 50, z: 0}
 --- !u!1 &1465668995
 GameObject:
   m_ObjectHideFlags: 0
@@ -5725,7 +5725,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d52facaba4c50f24185272742a2e97b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Rotation: {x: 0, y: 0, z: 0}
+  Rotation: {x: 0, y: 50, z: 0}
 --- !u!1 &1649638745
 GameObject:
   m_ObjectHideFlags: 0
@@ -7020,7 +7020,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d52facaba4c50f24185272742a2e97b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Rotation: {x: 0, y: 0, z: 0}
+  Rotation: {x: 0, y: 50, z: 0}
 --- !u!1 &2071713976
 GameObject:
   m_ObjectHideFlags: 0
