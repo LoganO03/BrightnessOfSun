@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour {
     private float RotationX = 0;
     private CharacterController CharacterController;
 
-    private bool canMove = true;
+    private bool CanMove = true;
 
     void Start() {
         CharacterController = GetComponent<CharacterController>();
@@ -30,11 +30,11 @@ public class PlayerMovement : MonoBehaviour {
         Vector3 forward = transform.TransformDirection(Vector3.forward);
         Vector3 right = transform.TransformDirection(Vector3.right);
         bool isRunning = Input.GetKey(KeyCode.LeftShift);
-        float curSpeedX = canMove ? (isRunning ? RunSpeed : WalkSpeed) * Input.GetAxis("Vertical") : 0;
-        float curSpeedY = canMove ? (isRunning ? RunSpeed : WalkSpeed) * Input.GetAxis("Horizontal") : 0;
+        float curSpeedX = CanMove ? (isRunning ? RunSpeed : WalkSpeed) * Input.GetAxis("Vertical") : 0;
+        float curSpeedY = CanMove ? (isRunning ? RunSpeed : WalkSpeed) * Input.GetAxis("Horizontal") : 0;
         float movementDirectionY = MoveDirection.y;
         MoveDirection = (forward * curSpeedX) + (right * curSpeedY);
-        if (Input.GetButton("Jump") && canMove && CharacterController.isGrounded) {
+        if (Input.GetButton("Jump") && CanMove && CharacterController.isGrounded) {
             MoveDirection.y = JumpPower;
         } else {
             MoveDirection.y = movementDirectionY;
@@ -42,7 +42,7 @@ public class PlayerMovement : MonoBehaviour {
         if (!CharacterController.isGrounded) {
             MoveDirection.y -= Gravity * Time.deltaTime;
         }
-        if (Input.GetKey(KeyCode.R) && canMove) {
+        if (Input.GetKey(KeyCode.R) && CanMove) {
             CharacterController.height = CrouchHeight;
             WalkSpeed = CrouchSpeed;
             RunSpeed = CrouchSpeed;
@@ -52,7 +52,7 @@ public class PlayerMovement : MonoBehaviour {
             RunSpeed = 12f;
         }
         CharacterController.Move(MoveDirection * Time.deltaTime);
-        if (canMove) {
+        if (CanMove && !PauseMenu.Paused) {
             RotationX += -Input.GetAxis("Mouse Y") * LookSpeed;
             RotationX = Mathf.Clamp(RotationX, -LookXLimit, LookXLimit);
             PlayerCamera.transform.localRotation = Quaternion.Euler(RotationX, 0, 0);

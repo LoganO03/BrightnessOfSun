@@ -22,42 +22,41 @@ public class UIManager : MonoBehaviour {
     }
 
     void Update() {
-        if (Input.GetKeyDown(KeyCode.Tab)) {
-            GetComponent<PlayerMovement>().enabled = !GetComponent<PlayerMovement>().enabled;
-            if (GetComponent<PlayerMovement>().enabled) {
-                Cursor.lockState = CursorLockMode.Locked;
-                JournalIcon.gameObject.SetActive(true);
-                TempIcon.gameObject.SetActive(true);
-                Journal.LeanMoveLocalY(-410, 0.5f).setEaseOutExpo().setOnComplete(OnCompleteJournal);
-                return;
-            }
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
-            JournalIcon.gameObject.SetActive(false);
-            TempIcon.gameObject.SetActive(false);
-            JournalText.gameObject.SetActive(true);
-            Thermometer.gameObject.SetActive(false);
-            Journal.LeanMoveLocalY(0, 0.5f).setEaseOutExpo().delay = 0.1f;
-        }
-
-        if (Input.GetKeyDown(KeyCode.T)) {
-            if (!JournalText.gameObject.activeSelf) {
-                if (Thermometer.gameObject.activeSelf) {
-                    Thermometer.LeanMoveLocalY(-230, 0.5f).setEaseOutExpo().setOnComplete(OnCompleteTemp);
+        if (!PauseMenu.Paused) {
+            if (Input.GetKeyDown(KeyCode.Tab)) {
+                GetComponent<PlayerMovement>().enabled = !GetComponent<PlayerMovement>().enabled;
+                if (GetComponent<PlayerMovement>().enabled) {
+                    Cursor.lockState = CursorLockMode.Locked;
+                    JournalIcon.gameObject.SetActive(true);
+                    TempIcon.gameObject.SetActive(true);
+                    Journal.LeanMoveLocalY(-410, 0.5f).setEaseOutExpo().setOnComplete(OnCompleteJournal);
                     return;
                 }
-                Thermometer.gameObject.SetActive(true);
-                ThermometerText.text = "-----";
-                Thermometer.LeanMoveLocalY(0, 0.5f).setEaseOutExpo().delay = 0.1f;
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
+                JournalIcon.gameObject.SetActive(false);
+                TempIcon.gameObject.SetActive(false);
+                JournalText.gameObject.SetActive(true);
+                Thermometer.gameObject.SetActive(false);
+                Journal.LeanMoveLocalY(0, 0.5f).setEaseOutExpo().delay = 0.1f;
+            }
+            if (Input.GetKeyDown(KeyCode.T)) {
+                if (!JournalText.gameObject.activeSelf) {
+                    if (Thermometer.gameObject.activeSelf) {
+                        Thermometer.LeanMoveLocalY(-230, 0.5f).setEaseOutExpo().setOnComplete(OnCompleteTemp);
+                        return;
+                    }
+                    Thermometer.gameObject.SetActive(true);
+                    ThermometerText.text = "-----";
+                    Thermometer.LeanMoveLocalY(0, 0.5f).setEaseOutExpo().delay = 0.1f;
+                }
             }
         }
-
         if (Input.GetMouseButtonDown(0)) {
             if (Thermometer.gameObject.activeSelf) {
                 ThermometerText.text = $"{Random.Range(LowestTemp, HighestTemp):F1}°F";
             }
         }
-
         if (GetComponent<PlayerMovement>().MineralCount == 10) {
             MineralNotif.gameObject.SetActive(true);
         }

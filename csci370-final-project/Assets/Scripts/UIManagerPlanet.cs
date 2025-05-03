@@ -18,18 +18,20 @@ public class UIManagerPlanet : MonoBehaviour {
     }
     
     void Update() {
-        if (Input.GetKeyDown(KeyCode.Tab)) {
-            if (VictoryCanvas.gameObject.activeSelf) {
-                return;
+        if (!PauseMenu.Paused) {
+            if (Input.GetKeyDown(KeyCode.Tab)) {
+                if (VictoryCanvas.gameObject.activeSelf) {
+                    return;
+                }
+                if (JournalText.activeSelf == false) {
+                    JournalIcon.gameObject.SetActive(false);
+                    JournalText.gameObject.SetActive(true);
+                    Journal.LeanMoveLocalY(0, 0.5f).setEaseOutExpo().delay = 0.1f;
+                    return;
+                }
+                JournalIcon.gameObject.SetActive(true);
+                Journal.LeanMoveLocalY(-410, 0.5f).setEaseOutExpo().setOnComplete(OnCompleteJournal);
             }
-            if (JournalText.activeSelf == false) {
-                JournalIcon.gameObject.SetActive(false);
-                JournalText.gameObject.SetActive(true);
-                Journal.LeanMoveLocalY(0, 0.5f).setEaseOutExpo().delay = 0.1f;
-                return;
-            }
-            JournalIcon.gameObject.SetActive(true);
-            Journal.LeanMoveLocalY(-410, 0.5f).setEaseOutExpo().setOnComplete(OnCompleteJournal);
         }
     }
 
