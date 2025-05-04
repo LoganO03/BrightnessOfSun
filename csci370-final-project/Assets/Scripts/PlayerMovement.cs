@@ -3,10 +3,10 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class PlayerMovement : MonoBehaviour {
     public Camera PlayerCamera;
-    public float WalkSpeed = 6f;
-    public float RunSpeed = 12f;
+    public float WalkSpeed = 10f;
+    public float RunSpeed = 20f;
     public float JumpPower = 7f;
-    public float Gravity = 10f;
+    public float Gravity;
     public float LookSpeed = 2f;
     public float LookXLimit = 45f;
     public float DefaultHeight = 2f;
@@ -48,8 +48,8 @@ public class PlayerMovement : MonoBehaviour {
             RunSpeed = CrouchSpeed;
         } else {
             CharacterController.height = DefaultHeight;
-            WalkSpeed = 6f;
-            RunSpeed = 12f;
+            WalkSpeed = 10f;
+            RunSpeed = 20f;
         }
         CharacterController.Move(MoveDirection * Time.deltaTime);
         if (CanMove && !PauseMenu.Paused) {
