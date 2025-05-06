@@ -30,7 +30,7 @@ public class UIManagerPlanet : MonoBehaviour {
                     return;
                 }
                 JournalIcon.gameObject.SetActive(true);
-                Journal.LeanMoveLocalY(-410, 0.5f).setEaseOutExpo().setOnComplete(OnCompleteJournal);
+                Journal.LeanMoveLocalY(-450, 0.5f).setEaseOutExpo().setOnComplete(OnCompleteJournal);
             }
         }
     }

@@ -32,7 +32,7 @@ public class UIManager : MonoBehaviour {
                     Cursor.lockState = CursorLockMode.Locked;
                     JournalIcon.gameObject.SetActive(true);
                     TempIcon.gameObject.SetActive(true);
-                    Journal.LeanMoveLocalY(-410, 0.5f).setEaseOutExpo().setOnComplete(OnCompleteJournal);
+                    Journal.LeanMoveLocalY(-450, 0.5f).setEaseOutExpo().setOnComplete(OnCompleteJournal);
                     return;
                 }
                 Cursor.lockState = CursorLockMode.None;
@@ -61,7 +61,7 @@ public class UIManager : MonoBehaviour {
                 ThermometerText.text = $"{Random.Range(LowestTemp, HighestTemp):F1}°F";
             }
         }
-        if (GetComponent<PlayerMovement>().MineralCount == 10) {
+        if (GetComponent<PlayerMovement>().MineralCount >= 10) {
             MineralNotif.gameObject.SetActive(true);
         }
     }

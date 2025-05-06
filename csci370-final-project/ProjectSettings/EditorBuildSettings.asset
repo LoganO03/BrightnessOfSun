@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Credits.unity
     guid: 9ac58ca324d799d4a90f667fab4e2bb0
   - enabled: 1
+    path: Assets/Scenes/Controls.unity
+    guid: ff880b08713249044b0654d5f82fb1af
+  - enabled: 1
     path: Assets/Scenes/T1-Earth-Mason.unity
     guid: 94482abb1be7ab94d9a8cb3886b1cd07
   - enabled: 1
@@ -23,9 +26,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PlanetSelection.unity
     guid: 40ffb2a468a30704285bee505f9d3452
-  - enabled: 1
-    path: Assets/Scenes/Controls.unity
-    guid: ff880b08713249044b0654d5f82fb1af
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

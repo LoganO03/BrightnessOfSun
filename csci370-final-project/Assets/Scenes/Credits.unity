@@ -179,7 +179,7 @@ MonoBehaviour:
   m_text: Credits
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab2a2b453b4a1dd438d6dce4009a2119, type: 2}
-  m_sharedMaterial: {fileID: 8515535332113565703, guid: ab2a2b453b4a1dd438d6dce4009a2119, type: 2}
+  m_sharedMaterial: {fileID: 8136514457031942858, guid: ab2a2b453b4a1dd438d6dce4009a2119, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -718,7 +718,7 @@ MonoBehaviour:
     Assets:\nAvionx - https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633\nSound:\n\n\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab2a2b453b4a1dd438d6dce4009a2119, type: 2}
-  m_sharedMaterial: {fileID: 8515535332113565703, guid: ab2a2b453b4a1dd438d6dce4009a2119, type: 2}
+  m_sharedMaterial: {fileID: 8136514457031942858, guid: ab2a2b453b4a1dd438d6dce4009a2119, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -901,7 +901,7 @@ RectTransform:
   m_GameObject: {fileID: 2070949398}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8798, y: 0.8798, z: 0.8798}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1490909709}
