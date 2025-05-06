@@ -3,8 +3,8 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class PlayerMovement : MonoBehaviour {
     public Camera PlayerCamera;
-    public float WalkSpeed = 10f;
-    public float RunSpeed = 20f;
+    public float WalkSpeed;
+    public float RunSpeed;
     public float JumpPower = 7f;
     public float Gravity;
     public float LookSpeed = 2f;
