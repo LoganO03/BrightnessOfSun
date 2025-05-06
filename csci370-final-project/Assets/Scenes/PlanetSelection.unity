@@ -179,7 +179,7 @@ MonoBehaviour:
   m_text: Drag the planets in the right order!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab2a2b453b4a1dd438d6dce4009a2119, type: 2}
-  m_sharedMaterial: {fileID: 8515535332113565703, guid: ab2a2b453b4a1dd438d6dce4009a2119, type: 2}
+  m_sharedMaterial: {fileID: 8136514457031942858, guid: ab2a2b453b4a1dd438d6dce4009a2119, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -693,7 +693,7 @@ MonoBehaviour:
     the surface!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab2a2b453b4a1dd438d6dce4009a2119, type: 2}
-  m_sharedMaterial: {fileID: 8515535332113565703, guid: ab2a2b453b4a1dd438d6dce4009a2119, type: 2}
+  m_sharedMaterial: {fileID: 8136514457031942858, guid: ab2a2b453b4a1dd438d6dce4009a2119, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -829,7 +829,7 @@ MonoBehaviour:
   m_text: SUCCESS!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab2a2b453b4a1dd438d6dce4009a2119, type: 2}
-  m_sharedMaterial: {fileID: 8515535332113565703, guid: ab2a2b453b4a1dd438d6dce4009a2119, type: 2}
+  m_sharedMaterial: {fileID: 8136514457031942858, guid: ab2a2b453b4a1dd438d6dce4009a2119, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -965,14 +965,14 @@ MonoBehaviour:
   m_text: Return to Main Menu
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab2a2b453b4a1dd438d6dce4009a2119, type: 2}
-  m_sharedMaterial: {fileID: 8515535332113565703, guid: ab2a2b453b4a1dd438d6dce4009a2119, type: 2}
+  m_sharedMaterial: {fileID: 8136514457031942858, guid: ab2a2b453b4a1dd438d6dce4009a2119, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1030,7 +1030,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &518890246
@@ -1543,7 +1543,7 @@ MonoBehaviour:
   m_text: Submit
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab2a2b453b4a1dd438d6dce4009a2119, type: 2}
-  m_sharedMaterial: {fileID: 8515535332113565703, guid: ab2a2b453b4a1dd438d6dce4009a2119, type: 2}
+  m_sharedMaterial: {fileID: 8136514457031942858, guid: ab2a2b453b4a1dd438d6dce4009a2119, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

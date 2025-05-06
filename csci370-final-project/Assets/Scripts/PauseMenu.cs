@@ -9,8 +9,10 @@ public class PauseMenu : MonoBehaviour {
         Menu.SetActive(false);
         Time.timeScale = 1f;
         Paused = false;
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        if (SceneManager.GetActiveScene().name != "PlanetSelection") {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
     }
 
     void Update() {
