@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour {
     public float CrouchSpeed = 3f;
     public int MineralCount = 0;
     public AudioSource WalkAudio;
+    public AudioSource MinAudio;
 
     private Vector3 MoveDirection = Vector3.zero;
     private float RotationX = 0;
@@ -89,6 +90,7 @@ public class PlayerMovement : MonoBehaviour {
     void OnCollisionEnter(Collision collision) {
         if (collision.gameObject.CompareTag("Mineral")) {
             IncreaseCount();
+            MinAudio.Play();
             Destroy(collision.gameObject);
         }
     }
