@@ -715,7 +715,11 @@ MonoBehaviour:
     Assets:\n\rPalmov Island - https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-atmospheric-locations-pack-278928\nDearftpunk
     Studios  - https://assetstore.unity.com/packages/3d/environments/sci-fi/free-demo-of-low-poly-space-alien-worlds-3d-asset-pack-258683\nMineral
     Assets: \nPandazole - https://assetstore.unity.com/packages/3d/environments/pandazole-nature-environment-low-poly-pack-212621#content\nSkybox
-    Assets:\nAvionx - https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633\nSound:\n\n\n\n"
+    Assets:\nAvionx - https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633\nSound:\nSpring
+    Spring - https://opengameart.org/content/opening-and-closing-a-map-sounds\nTinyWorlds
+    - https://opengameart.org/content/different-steps-on-wood-stone-leaves-gravel-and-mud
+    \nPetterTheSturgeon - https://opengameart.org/content/space-music-blind-shift\nFupi
+    - https://opengameart.org/content/8bit-menu-highlight\nqubodup - https://opengameart.org/content/beep-tone-sound-sfx\n\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ab2a2b453b4a1dd438d6dce4009a2119, type: 2}
   m_sharedMaterial: {fileID: 8136514457031942858, guid: ab2a2b453b4a1dd438d6dce4009a2119, type: 2}
@@ -742,8 +746,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 13
-  m_fontSizeBase: 13
+  m_fontSize: 10
+  m_fontSizeBase: 10
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
