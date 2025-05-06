@@ -9,6 +9,7 @@ public class UIManager : MonoBehaviour {
     public GameObject Thermometer;
     public TMP_Text ThermometerText;
     public GameObject TempIcon;
+    public AudioSource TempAudio;
     public TMP_Text MineralCount;
     public TMP_Text MineralNotif;
     public float LowestTemp;
@@ -22,8 +23,10 @@ public class UIManager : MonoBehaviour {
     }
 
     void Update() {
+        AudioSource JournalAudio = Journal.GetComponent<AudioSource>();
         if (!PauseMenu.Paused) {
             if (Input.GetKeyDown(KeyCode.Tab)) {
+                JournalAudio.Play();
                 GetComponent<PlayerMovement>().enabled = !GetComponent<PlayerMovement>().enabled;
                 if (GetComponent<PlayerMovement>().enabled) {
                     Cursor.lockState = CursorLockMode.Locked;
@@ -54,6 +57,7 @@ public class UIManager : MonoBehaviour {
         }
         if (Input.GetMouseButtonDown(0)) {
             if (Thermometer.gameObject.activeSelf) {
+                TempAudio.Play();
                 ThermometerText.text = $"{Random.Range(LowestTemp, HighestTemp):F1}°F";
             }
         }

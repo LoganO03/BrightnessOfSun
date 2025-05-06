@@ -13,12 +13,15 @@ public class PlayerMovement : MonoBehaviour {
     public float CrouchHeight = 1f;
     public float CrouchSpeed = 3f;
     public int MineralCount = 0;
+    public AudioSource WalkAudio;
 
     private Vector3 MoveDirection = Vector3.zero;
     private float RotationX = 0;
     private CharacterController CharacterController;
 
     private bool CanMove = true;
+
+    bool wasGrounded = true;
 
     void Start() {
         CharacterController = GetComponent<CharacterController>();
@@ -58,6 +61,24 @@ public class PlayerMovement : MonoBehaviour {
             PlayerCamera.transform.localRotation = Quaternion.Euler(RotationX, 0, 0);
             transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * LookSpeed, 0);
         }
+        
+        if (CharacterController.isGrounded) {
+            if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D)) {
+                WalkAudio.enabled = true;
+            } else {
+                WalkAudio.enabled = false;
+            }
+
+            // Detect landing while holding W
+            if (!wasGrounded && Input.GetKey(KeyCode.W)) {
+                WalkAudio.enabled = true;
+            }
+        } else {
+            WalkAudio.enabled = false;
+        }
+
+        wasGrounded = CharacterController.isGrounded;
+
     }
 
     public void IncreaseCount() {
